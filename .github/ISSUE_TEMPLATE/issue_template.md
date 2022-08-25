@@ -1,0 +1,19 @@
+---
+name: 이슈 템플릿
+about:  담당할 이슈에 대한 템플릿
+labels: "feat"
+assignees: "brorae, HJ-Rich, Hyunta, kimchan123"
+---
+
+## 배경
+
+해당 작업의 필요성 및 전반적인 개요
+
+## 진행사항
+
+- 작업1
+ - [ ] 해야할 일 1
+ - [ ] 해야할 일 2
+
+
+## 공유사항
