@@ -1,4 +1,4 @@
-name: 줍줍 백엔드 SonarQube 정적 분석
+name: 백엔드 SonarQube 정적 분석
 on:
   pull_request:
     branches:
