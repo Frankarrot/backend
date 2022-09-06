@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: "11"
+          distribution: 'temurin'
           
       - name: Gradle build를 수행합니다
         run: ./gradlew build
