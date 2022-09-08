@@ -23,7 +23,7 @@ public class AuthController {
         return ResponseEntity.ok(loginResponse);
     }
 
-    // 여기에 같이 적어보면 어떨까 헤헤 ㅋ
+    // 여기에 같이 적어보면 어떨까 헤헤 ㅋㅋ
 
     // [프론트]
     // 1. 프론트에서 OAuth 버튼을 누른다
