@@ -39,7 +39,7 @@ public class AuthController {
     // 5. 백엔드는 code를 Github에 전송해서 AccessToken으로 교환한다.
     // 6. 백엔드가 다시 AccessToken 으로 Github에 요청해서 사용자 정보를 받아온다
     // 7. 신규 회원이면 저장, 기존 회원이면 저장 안함
-    // 8. 백엔드가 사용자 정보를 이용해서 AccessToken을 만들어서 반환한다
+    // 8. 백엔드가 사용자 정보를 이용해서 AccessToken을 만들어서 반환한다ㅋ
 
     // [프론트]
     // 9. 프론트가 AccessToken을 LocalStorage 또는 Cookie에 저장한다
