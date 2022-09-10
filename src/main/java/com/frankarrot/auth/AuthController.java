@@ -30,7 +30,7 @@ public class AuthController {
 
     // [Github]
     // 2. Github 로그인 페이지로 이동되어 로그인한다
-    // 3. 로그인 성공 시 프론트로 Redirect 된다. 이떄 code=adsf 가 URL에 같이 전달된다zz
+    // 3. 로그인 성공 시 프론트로 Redirect 된다. 이떄 code=adsf 가 URL에 같이 전달된다
 
     // [프론트]
     // 4. 프론트가 code를 백엔드에게 전송한다
