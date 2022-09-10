@@ -7,7 +7,7 @@ plugins {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "Frankarrot_backend_AYMTC0Q0JbG-Y9HXflBG"
+        property "sonar.projectKey", "Frankarrot_backend_AYMmN1SPbvrwls5h6iw0"
     }
 }
 
