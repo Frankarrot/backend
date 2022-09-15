@@ -1,0 +1,4 @@
+[[Member]]
+== 멤버
+
+operation::member[snippets='http-request,http-response']
