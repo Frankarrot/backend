@@ -1,5 +1,6 @@
 package com.frankarrot.auth;
 
+import com.frankarrot.auth.dto.LoginResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
