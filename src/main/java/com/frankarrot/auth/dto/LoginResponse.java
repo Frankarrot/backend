@@ -1,4 +1,4 @@
-package com.frankarrot.auth;
+package com.frankarrot.auth.dto;
 
 public class LoginResponse {
 

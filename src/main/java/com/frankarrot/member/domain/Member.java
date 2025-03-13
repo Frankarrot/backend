@@ -20,15 +20,30 @@ public class Member {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "oauth_id")
+    private String oauthId;
+
     @Column(name = "name", nullable = false)
     private String name;
+
+    @Column(name = "email")
+    private String email;
 
     @Column(name = "image_url", nullable = false)
     private String imageUrl;
 
-    public Member(Long id, String name, String imageUrl) {
+    public Member(Long id, String oauthId, String name, String email, String imageUrl) {
         this.id = id;
+        this.oauthId = oauthId;
         this.name = name;
+        this.email = email;
         this.imageUrl = imageUrl;
+    }
+
+    public Member update(String name, String email, String imageUrl) {
+        this.name = name;
+        this.email = email;
+        this.imageUrl = imageUrl;
+        return this;
     }
 }

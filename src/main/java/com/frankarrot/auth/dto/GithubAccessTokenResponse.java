@@ -1,4 +1,4 @@
-package com.frankarrot.auth;
+package com.frankarrot.auth.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
